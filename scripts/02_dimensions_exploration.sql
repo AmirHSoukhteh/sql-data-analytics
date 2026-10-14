@@ -12,8 +12,6 @@ SQL Functions Used:
 ===============================================================================
 */
 
-USE Datawarehouse;
-
 -- Retrieve a list of unique countries from which customers originate
 SELECT DISTINCT
     country 

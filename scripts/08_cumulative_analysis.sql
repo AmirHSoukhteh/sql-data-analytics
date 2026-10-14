@@ -12,8 +12,6 @@ SQL Functions Used:
 ===============================================================================
 */
 
-USE Datawarehouse
-
 -- Calculate the total sales per year
 -- and the running total of sales over time 
 SELECT

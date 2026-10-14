@@ -13,8 +13,6 @@ SQL Functions Used:
 ===============================================================================
 */
 
-USE Datawarehouse
-
 -- Analyse sales performance over time
 -- Quick Date Functions
 SELECT

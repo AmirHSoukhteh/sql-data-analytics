@@ -12,8 +12,6 @@ Table Used:
 ===============================================================================
 */
 
-USE Datawarehouse;
-
 -- Retrieve a list of all tables in the database
 SELECT 
     TABLE_CATALOG, 
