@@ -150,7 +150,7 @@ The required tables are:
 
 Ensure that the database and schemas match the names expected by the analytics scripts.
 
-#### Option C: Import the CSV Files
+#### Option C: Import the CSV Files with Script
 
 You can also create and populate the required tables using the provided CSV files.
 
@@ -159,9 +159,11 @@ You can also create and populate the required tables using the provided CSV file
    - `gold.dim_customers.csv`
    - `gold.dim_products.csv`
    - `gold.fact_sales.csv`
-3. Verify that the table structures, column names, and data types match the SQL queries.
+3. Verify that the table structures, source path, column names, and data types match the SQL queries.
 
 Review `scripts/00_init_dataset.sql` before execution to confirm its database configuration and initialization steps. If it does not create all the required tables, create or import them before proceeding.
+
+#### Option D: [Import Flat File to SQL Wizard](https://learn.microsoft.com/en-us/sql/relational-databases/import-export/import-flat-file-wizard?view=sql-server-ver17)
 
 ### 3. Run the Analysis
 
